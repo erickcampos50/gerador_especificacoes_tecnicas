@@ -13,8 +13,8 @@ def extract_sections_from_pdf(pdf_path):
         "Equipamentos": ("3. EQUIPAMENTO", "4. CRITÉRIOS PARA QUANTIFICAÇÃO DOS SERVIÇOS"),
         "Criterios": ("4. CRITÉRIOS PARA QUANTIFICAÇÃO DOS SERVIÇOS", "5. CRITÉRIOS DE AFERIÇÃO"),
         "Afericao": ("5. CRITÉRIOS DE AFERIÇÃO", "6. EXECUÇÃO"),
-        "Informacoes": ("6. EXECUÇÃO", "7. INFORMAÇÕES"),
-        "Pendencias": ("7. INFORMAÇÕES", "8. PENDÊNCIAS"),
+        "Execucao": ("6. EXECUÇÃO", "7. INFORMAÇÕES"),
+        "Informacoes": ("7. INFORMAÇÕES", "8. PENDÊNCIAS"),
     }
 
     extracted_data_list = []
